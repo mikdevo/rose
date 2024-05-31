@@ -1,0 +1,33 @@
+/* Enhancements for the name "Lucine" */
+.name {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 32px;
+    color: #FFD700; /* Gold color */
+    font-family: 'Arial', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+    animation: glow 1.5s infinite alternate;
+    transform: rotate(-5deg);
+}
+
+/* Animation for glowing effect */
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px #FFD700, 0 0 20px #FFD700, 0 0 30px #FFD700, 0 0 40px #FFD700, 0 0 50px #FFD700, 0 0 60px #FFD700, 0 0 70px #FFD700;
+    }
+    to {
+        text-shadow: 0 0 20px #FF6347, 0 0 30px #FF6347, 0 0 40px #FF6347, 0 0 50px #FF6347, 0 0 60px #FF6347, 0 0 70px #FF6347, 0 0 80px #FF6347;
+    }
+}
+
+.discord-image {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 400px; /* Adjust width as needed */
+    height: 400px; /* Adjust height to maintain square aspect ratio */
+    z-index: 1000;
+    border-radius: 50%; /* Makes it circular */
+}
